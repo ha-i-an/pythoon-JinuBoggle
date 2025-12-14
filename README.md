@@ -1,4 +1,4 @@
-<img width="1919" height="1026" alt="image" src="https://github.com/user-attachments/assets/3358689a-58c0-4fe7-aa1a-c36a92817de3" /># pythoon-JinuBoggle
+
 [지누보글] 
 
 조작방법

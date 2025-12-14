@@ -1,0 +1,146 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>fe876839-93b8-4b99-b8b8-03712160459d</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>99.JinuBubble\99.JinuBubble.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>지누보글</Name>
+    <RootNamespace>[파이썬] 지누보글</RootNamespace>
+    <InterpreterId>Global|PythonCore|3.12</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="01.BasicForm\01.BasicForm.py" />
+    <Compile Include="02.KeyboardEvents\02.KeyboardEvents.py" />
+    <Compile Include="03.Sound\03.Sound.py" />
+    <Compile Include="04.Menu\04.Menu.py" />
+    <Compile Include="05.PlatformEvent_Jinu\05.PlatformEvent_Jinu.py" />
+    <Compile Include="06.EnemyEvent_Jinu\06.EnemyEvent_Jinu.py" />
+    <Compile Include="07.BubbleHitEnemyEvent\07.BubbleHitEnemyEvent.py" />
+    <Compile Include="08.CatchEnemyEvent\08.CatchEnemyEvent.py" />
+    <Compile Include="09.PopTrappedEnemy\09.PopTrappedEnemy.py" />
+    <Compile Include="10.ImageApplyEvent\10.ImageApplyEvent.py" />
+    <Compile Include="11.BackgroundMoving\11.BackgroundMoving.py" />
+    <Compile Include="12.PositionAndRunAnimation\12.PositionAndRunAnimation.py" />
+    <Compile Include="13.JumpRunAnimation\13.JumpRunAnimation.py" />
+    <Compile Include="14.JumpRunBubble\14.JumpRunBubble.py" />
+    <Compile Include="15.EnemyBubbleHit\15.EnemyBubbleHit.py" />
+    <Compile Include="99.JinuBubble\99.JinuBubble.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="01.BasicForm\" />
+    <Folder Include="02.KeyboardEvents\" />
+    <Folder Include="05.PlatformEvent_Jinu\" />
+    <Folder Include="06.EnemyEvent_Jinu\" />
+    <Folder Include="07.BubbleHitEnemyEvent\" />
+    <Folder Include="08.CatchEnemyEvent\" />
+    <Folder Include="09.PopTrappedEnemy\" />
+    <Folder Include="10.ImageApplyEvent\" />
+    <Folder Include="04.Menu\" />
+    <Folder Include="03.Sound\" />
+    <Folder Include="11.BackgroundMoving\" />
+    <Folder Include="11.BackgroundMoving\image\" />
+    <Folder Include="12.PositionAndRunAnimation\" />
+    <Folder Include="12.PositionAndRunAnimation\image\" />
+    <Folder Include="13.JumpRunAnimation\" />
+    <Folder Include="13.JumpRunAnimation\image\" />
+    <Folder Include="14.JumpRunBubble\" />
+    <Folder Include="14.JumpRunBubble\image\" />
+    <Folder Include="15.EnemyBubbleHit\" />
+    <Folder Include="15.EnemyBubbleHit\image\" />
+    <Folder Include="99.JinuBubble\" />
+    <Folder Include="99.JinuBubble\image\" />
+    <Folder Include="99.JinuBubble\sound\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="03.Sound\Bubble.wav" />
+    <Content Include="03.Sound\gametheme.wav" />
+    <Content Include="03.Sound\jump.wav" />
+    <Content Include="10.ImageApplyEvent\jinu_left.png" />
+    <Content Include="10.ImageApplyEvent\jinu_right.png" />
+    <Content Include="11.BackgroundMoving\image\GNUcampus.png" />
+    <Content Include="12.PositionAndRunAnimation\image\jinu_left.png" />
+    <Content Include="12.PositionAndRunAnimation\image\jinu_right.png" />
+    <Content Include="12.PositionAndRunAnimation\image\Leftwalk1.png" />
+    <Content Include="12.PositionAndRunAnimation\image\Leftwalk2.png" />
+    <Content Include="12.PositionAndRunAnimation\image\Rightwalk1.png" />
+    <Content Include="12.PositionAndRunAnimation\image\Rightwalk2.png" />
+    <Content Include="13.JumpRunAnimation\image\jinu_left.png" />
+    <Content Include="13.JumpRunAnimation\image\jinu_right.png" />
+    <Content Include="13.JumpRunAnimation\image\Leftwalk1.png" />
+    <Content Include="13.JumpRunAnimation\image\Leftwalk2.png" />
+    <Content Include="13.JumpRunAnimation\image\Rightwalk1.png" />
+    <Content Include="13.JumpRunAnimation\image\Rightwalk2.png" />
+    <Content Include="14.JumpRunBubble\image\bubble.png" />
+    <Content Include="14.JumpRunBubble\image\jinu_left.png" />
+    <Content Include="14.JumpRunBubble\image\jinu_right.png" />
+    <Content Include="14.JumpRunBubble\image\Leftwalk1.png" />
+    <Content Include="14.JumpRunBubble\image\Leftwalk2.png" />
+    <Content Include="14.JumpRunBubble\image\Rightwalk1.png" />
+    <Content Include="14.JumpRunBubble\image\Rightwalk2.png" />
+    <Content Include="15.EnemyBubbleHit\image\beer.png" />
+    <Content Include="15.EnemyBubbleHit\image\beer_bubble.png" />
+    <Content Include="15.EnemyBubbleHit\image\Bubble.png" />
+    <Content Include="15.EnemyBubbleHit\image\jinu_left.png" />
+    <Content Include="15.EnemyBubbleHit\image\jinu_right.png" />
+    <Content Include="15.EnemyBubbleHit\image\Leftwalk1.png" />
+    <Content Include="15.EnemyBubbleHit\image\Leftwalk2.png" />
+    <Content Include="15.EnemyBubbleHit\image\Rightwalk1.png" />
+    <Content Include="15.EnemyBubbleHit\image\Rightwalk2.png" />
+    <Content Include="99.JinuBubble\image\A.png" />
+    <Content Include="99.JinuBubble\image\beer.png" />
+    <Content Include="99.JinuBubble\image\beer_bubble.png" />
+    <Content Include="99.JinuBubble\image\Bubble.png" />
+    <Content Include="99.JinuBubble\image\dust.png" />
+    <Content Include="99.JinuBubble\image\dust_bubble.png" />
+    <Content Include="99.JinuBubble\image\GNUcampus.png" />
+    <Content Include="99.JinuBubble\image\GNUin.png" />
+    <Content Include="99.JinuBubble\image\GNUlibrary.png" />
+    <Content Include="99.JinuBubble\image\jinu_left.png" />
+    <Content Include="99.JinuBubble\image\jinu_right.png" />
+    <Content Include="99.JinuBubble\image\Leftwalk1.png" />
+    <Content Include="99.JinuBubble\image\Leftwalk2.png" />
+    <Content Include="99.JinuBubble\image\menu_bg.png" />
+    <Content Include="99.JinuBubble\image\phone.png" />
+    <Content Include="99.JinuBubble\image\phone_bubble.png" />
+    <Content Include="99.JinuBubble\image\pop.png" />
+    <Content Include="99.JinuBubble\image\Rightwalk1.png" />
+    <Content Include="99.JinuBubble\image\Rightwalk2.png" />
+    <Content Include="99.JinuBubble\image\score_1000.png" />
+    <Content Include="99.JinuBubble\image\score_2000.png" />
+    <Content Include="99.JinuBubble\image\score_500.png" />
+    <Content Include="99.JinuBubble\sound\bonus.wav" />
+    <Content Include="99.JinuBubble\sound\Bubble.wav" />
+    <Content Include="99.JinuBubble\sound\gameclear.wav" />
+    <Content Include="99.JinuBubble\sound\gameover.wav" />
+    <Content Include="99.JinuBubble\sound\gametheme.wav" />
+    <Content Include="99.JinuBubble\sound\hit.wav" />
+    <Content Include="99.JinuBubble\sound\jump.wav" />
+    <Content Include="99.JinuBubble\sound\main.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.12" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
